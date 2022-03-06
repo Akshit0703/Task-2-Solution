@@ -1,0 +1,411 @@
+﻿body
+{
+}
+
+nav {
+    background-color:#222222;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+}
+
+.logoimg{align-self:center;
+         margin-left:7vw;
+
+}
+
+span{color:#AFAFAF;
+     margin-right:2vw;
+
+}
+.names {
+    font-family: Noto Sans;
+    padding-left:10px;
+    padding-right: 40px;
+}
+.names:hover{color:#FFFFFF;
+             text-decoration:underline solid #FFFFFF ;
+}
+h2.container {
+    font-family:Noto Sans;
+    font-size: 90px;
+    font-weight: 700;
+    
+    text-align: center;
+    color: #FFFFFF;
+    margin-left:0px;
+}
+.mybtn {
+    border-radius: 8px;
+    font-family:Noto Sans;
+    color: #ffffff;
+    font-size:22px;
+    background-color: #E59B05;
+    
+    padding: 19px 39px 19px 38px;
+    text-decoration: none;
+}
+
+.mybtn:hover {color:#ffffff;
+        background: #ebc426;
+        text-decoration: none;
+    }
+.text1 {
+    font-family:Noto Sans;
+    width: 90vw;
+    margin-top: 1vw;
+    color: #FFFFFF;
+    text-align:center;
+}
+.img{width:auto;}
+.home {
+    height: 90vh;
+    background-image: url('shoe-3.png'),radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.81) 100%);
+    background-blend-mode:soft-light;
+    background-size: 100% 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bckimg {
+   
+}
+.img {
+    max-width: 90%;
+    height: auto;
+    padding-top:100px;
+}   
+img.img.responsive{opacity:0.5;}
+.homecontent {
+    width: 100vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{font-size:5vw;
+   font-family:Noto Sans;
+}
+
+p {
+    font-size: 18px;
+    font-family:Noto Sans;
+}
+
+.productpage{
+             background-color:#EEEEEE;
+             height:600px;
+             width:auto;
+             
+             
+}
+
+.carousel {
+    position: absolute;
+    top: 86px;
+    
+    
+}
+
+
+.d-block{
+    height:250px;
+    margin:0 auto 0 auto;
+    background-image:url(Ellipse.png);
+    background-repeat:no-repeat;
+    
+}
+
+.d-none {padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{text-align:center;
+   font-size:50px;
+   margin-bottom:20px;
+   font-family:Noto Sans;
+   
+}
+
+.proddetail1 {background-color:#E5E5E5;
+   display:flex;
+   justify-content:flex-start;
+   flex-direction:column;
+}
+
+.proddetail2 {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1132px;
+    height:426px;
+    padding-top: 40px;
+    padding-left:49px;
+    border-radius: 18px;
+    background: radial-gradient(50% 50% at 50% 50%, #FAA700 0%, #E48D00 100%);
+    text-align: left;
+    margin:5vw;
+    flex-wrap:wrap;
+}
+
+.head1 {width:390px;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+    text-align:left;
+    font-family:Noto Sans;
+    
+    
+}
+.head3 {
+    width: 390px;
+    height: 180px;
+    height: auto;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 160px;
+    text-align: left;
+    padding-top: 20px;
+    font-family: Noto Sans;
+}
+.head2 {
+    width: 390px;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+    font-family: Noto Sans;
+}
+.head4 {
+    width: 390px;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+    padding-left: 60px;
+    font-family: Noto Sans;
+}
+.text2 {
+    width: 707px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: Noto Sans;
+}
+.text3 {
+    width: 707px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-left: 170px;
+    text-align: left;
+    font-family: Noto Sans;
+}
+.head2 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: Noto sans-serif;
+    width: auto;
+    font-family: Noto Sans;
+}
+.box2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 1132px;
+    height: 426px;
+    padding-top: 40px;
+    padding-left: 49px;
+    border-radius: 18px;
+    background: radial-gradient(50% 50% at 50% 50%, #6DD5ED 0%, #2193B0 100%);
+    text-align:center;
+    margin: 5vw;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+
+.imgbox1 {
+    width: 580px;
+    height: 452px;
+    align-self:flex-end;
+    position:absolute;
+    margin-top:50px;
+
+}
+.imgbox2 {
+    width: 580px;
+    height: 466px;
+    align-self:baseline;
+    position:absolute;
+}
+
+contentbox1{display:flex;
+            align-items:flex-end;
+}
+
+contentbox2{display:flex;
+            align-items:center;
+            justify-content:center;
+            
+            
+}
+.colordiv {
+    background-color: #E5E5E5;
+}
+
+    @media (min-width:100px) and (max-width:480px) {
+        .text1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2.container {
+            font-size: 35px;
+            font-weight: 800;
+            margin-right: 26px;
+            margin-left: 26px;
+            text-align: left;
+            margin-bottom: 50px;
+        }
+
+        .home {
+            display: flex;
+            justify-content: right;
+        }
+
+        a.mybtn {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .productpage {
+            height: 470px;
+        }
+
+        .box1 {
+            width: 450px;
+            height: 426px;
+            padding-top: 128px;
+            padding-left: 9px;
+            border-radius: 20px;
+            text-align: left;
+            margin: 5vw;
+        }
+
+        .box2 {
+            width: 450px;
+            height: 426px;
+            padding-top: 128px;
+            padding-left: 29px;
+            border-radius: 20px;
+            text-align: left;
+            margin: 5vw;
+            margin-top:100px;
+            justify-content:flex-end;
+            align-items:flex-end;
+        }
+
+        .imgbox1 {
+            width: 289px;
+            height: 229px;
+            position:absolute;
+            align-self:center;
+        }
+
+        .imgbox2 {
+            width: 309px;
+            height: 238px;
+            position: absolute;
+            align-self:center;
+            
+        }
+
+        .box1 {
+            margin-top: 100px;
+            margin-right: 5vw;
+        }
+
+        .proddetail2 {
+            
+        }
+
+        .contentbox1 {
+            width: 400px;
+            padding-left: 0px;
+        }
+        .contentbox2{
+            width:400px;
+            padding-left:0px;
+            justify-content:flex-end;
+            align-items:flex-end;
+        }
+        .head1 {
+            font-size: 40px;
+            width: 195px;
+            line-height: 45px;
+        }
+
+        .head2 {
+            font-size: 30px;
+            width: 272px;
+        }
+
+        .head3 {
+            font-size: 40px;
+            width: 195px;
+            line-height: 45px;
+            margin-left:0px;
+        }
+
+        .head4 {
+            font-size: 30px;
+            padding-left:0px;
+            width: 272px;
+        }
+        .text2 {
+            font-size: 16px;
+            font-weight: 600;
+            width: 400px;
+            line-height: 22px;
+        }
+
+        .text3 {
+            font-size: 16px;
+            font-weight: 600;
+            width: 400px;
+            line-height: 22px;
+            padding-left:0px;
+        }
+    }
