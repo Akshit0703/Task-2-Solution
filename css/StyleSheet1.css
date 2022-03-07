@@ -409,3 +409,28 @@ contentbox2{display:flex;
             padding-left:0px;
         }
     }
+@media (min-width:100px) and (max-width:400px) {
+    .box1 {
+        width: 350px;
+    }
+
+    .box2 {
+        width: 350px;
+    }
+
+    .contentbox1 {
+        width: 330px;
+    }
+
+    .contentbox2 {
+        width: 330px;
+    }
+
+    .text2 {
+        width: 330px;
+    }
+
+    .text3 {
+        width: 330px;
+    }
+}
